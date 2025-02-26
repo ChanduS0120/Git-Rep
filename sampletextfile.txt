@@ -1,0 +1,34 @@
+we have git remote repository - nothing but kind of storage like project files etc remotly
+locat repository - the repository/folder in our local computer
+working directory - current working directory / not added any git commands
+Staging area - 
+
+
+created a folder in desktop
+initialized git to this folder using command - 'git init'
+created a text file in it 
+git status - shown this text file is in untracked due to we dint applied any git commands on it
+right now this text file is in 'working directory'
+create a python file and check git status still it will show 2 untracked files now
+suppose if your computer was creashed - we should not lost our files - so we need to store in remote repository
+If we want to move our files from 'local repository' to 'remote repository' first we move to 'staging area' from 'working directory' 
+
+working directory -----git add----->  Stagging area (only one file will add at a time)
+Stagging area     -----git commit-->  Local repo  (batch of files will commit/move)
+Local repo        -----git push---->  Remote repo   (batch of files push/add )
+
+ example:
+> git add filename (file from 'working directory' to 'Stagging area')
+> git commit -m "give message here" (files are commited from 'Stagging' to 'Local repository')
+
+Now create a Remote repository - in chrome github - create an account if you dont have - there create a remote repository 
+then add this remote repository to the commandline " git remote add origin https://github.com/ChanduS0120/Git-Rep.git"
+then push the files to the branch
+
+git checkout - used to navigate or create brances
+git checkout -b "branchname" - creating new branch
+git checkout branchname - used to navigate to that branch
+
+
+
+
