@@ -29,6 +29,26 @@ git checkout - used to navigate or create brances
 git checkout -b "branchname" - creating new branch
 git checkout branchname - used to navigate to that branch
 
+now navigate to the created new branch "Copy1" - git checkout Copy1
+git branch - to know which branch we are
+then add the files from working directory to Stagging area of branch Copy1
+git add sampletextfile.txt
+
+now commit this file to Local repository of that branch 
+git commit -m "moving file from stagging to local rep of branch Copy1"
+
+now push these changes to remote repository from this branch Copy1
+git push - it will suggest the git push command
+git push --set--upstream origin Copy1 - file moved from local to remote repository
+
+now Copy1 branch will be added tot he main branch
+now if we want to add changes from Copy1 file to main branch - create "Pull request"
+then after creating PR the Lead or Architect will review the PR.
+once approved , they will merge this PR (changes) to main branch
+
+
+
+
 
 
 
