@@ -46,9 +46,25 @@ now if we want to add changes from Copy1 file to main branch - create "Pull requ
 then after creating PR the Lead or Architect will review the PR.
 once approved , they will merge this PR (changes) to main branch
 
+============git fork==============================================
+if you want to work for the others repository 
+1 first we dont have that repository in our space/area/repository
+2 so we need to take that into our space/area/repository using 'fork' option - create copy of the a repository
+into our remote repository. so, we can experiment with the changes without affecting the original project
+3 now we have to take this to our local repository - open the "remote repository" click 'Code' -'clone'-'copy HTTPS link'
+4 create a new folder - enter cmd in path - give command: git clone URL 
+5 now dont give command: git init (because it will initialize project but here we already have project)
+6 now it the repository will be on our local computer in the folder, so we can work on it for changes
+==================================================================
 
+===========git fetch / git pull===================================
+git fetch - if you want to revert back last changes but not revert back changes on remote repository
+git pull = if you want to revert back last changes and revert back these chnages in rem repository also
+==================================================================
 
-
-
+==========git pull===============
+if you want to uptodate with the project Code
+1 go to master branch - run command: "git pull"
+===================================
 
 
