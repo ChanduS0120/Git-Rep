@@ -1,3 +1,5 @@
+About git:
+---------
 we have git remote repository - nothing but kind of storage like project files etc remotly
 locat repository - the repository/folder in our local computer
 working directory - current working directory / not added any git commands
